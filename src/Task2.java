@@ -11,6 +11,17 @@ public class Task2 {
         int num3 = num / 100 % 10;
         int num4 = num / 10 % 10;
         int num5 = num % 10;
+        if (num > 99999 && num <= 999999) {
+            System.out.print(num5);
+            System.out.print(num4);
+            System.out.print(num2);
+            System.out.print(num3);
+            System.out.print(num1);
+            System.out.print(num0);
+        } else {
+            System.out.println("Ошибка");
+        }
+
 
     }
 }
